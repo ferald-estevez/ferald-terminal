@@ -953,7 +953,7 @@
 
         /* Enter */
 
-        if (event.key === "Enter") {
+                if (event.key === "Enter") {
 
             event.preventDefault();
 
@@ -962,10 +962,14 @@
             executeCommand();
         }
 
+    });
+
     /* Funciones utilizadas por los botones del teclado virtual. */
+
     window.writeKey = writeKey;
     window.deleteKey = deleteKey;
     window.clearScreen = clearScreen;
     window.executeCommand = executeCommand;
     window.playEnterSound = playEnterSound;
-   })();
+
+})();
