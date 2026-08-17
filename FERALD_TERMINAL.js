@@ -970,5 +970,3 @@
     window.clearScreen = clearScreen;
     window.executeCommand = executeCommand;
     window.playEnterSound = playEnterSound;
-
-})();
