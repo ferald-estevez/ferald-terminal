@@ -962,8 +962,6 @@
             executeCommand();
         }
 
-    });
-
     /* Funciones utilizadas por los botones del teclado virtual. */
     window.writeKey = writeKey;
     window.deleteKey = deleteKey;
